@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+.container{
+    text-align: center;
+}
+
+.container h1{
+    margin-bottom: 20px;
+}
+
+.container > div, .container input, .container button{
+    margin-bottom: 10px;
+}
+
+.senha-gerada{
+    font-size: 30px;
+    font-weight: bold;
+    color: crimson;
+}
+
+.text{
+    font-size: 18px;
+}
+
+.gerar-senha{
+    background-color: beige;
+}
